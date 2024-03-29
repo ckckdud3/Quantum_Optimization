@@ -1,0 +1,21 @@
+num_qubit: 1            # number of qubits in circuit
+
+freq: 3.0e+6            # detuning frequency
+
+t2: 2.2e-6              # T2* dephasing time
+
+gamma: 0.0              # post-selection factor
+
+t_obs: 2.094395e-5      # time interval to observe
+
+num_points: 500         # number of timepoints in the interval
+
+opt: 'Adam'            # optimization method (LBFGS or Adam)
+
+steps_per_point: 1000    # maximum optimization steps per timepoint
+
+patience: 5             # maximum patience limit
+
+threshold: 1.0e-13       # patience threshold
+
+save_to: 'test.npy'     # file path to save data
